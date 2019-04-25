@@ -9,9 +9,12 @@ let &colorcolumn=""
 " This one is for edition, when having an index, it opens in a split pane the
 " name of the index file on the current line, useful when the file does not
 " exist.
-nnoremap <leader>G $yiW:vs <c-r>"<CR>
+nnoremap <space>G $yiW:vs <c-r>"<CR>
 " Goes to the next index file
-nnoremap <leader>g $gf
+nnoremap <space>g $gf
+
 " Searches the index file names
-nnoremap <leader>f / \zs\([^ ]\+\.pres$\)<CR>
-nnoremap <leader><leader> :bn<CR>
+nnoremap <space>f / \zs\([^ ]\+\.pres$\)<CR>
+nnoremap <space><space> :bn<CR>
+nnoremap <space>a :bp<CR>
+nnoremap <space>s :bn<CR>
