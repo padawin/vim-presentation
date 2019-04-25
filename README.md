@@ -13,8 +13,9 @@ mappings to have amazing slides.
 This filetype offers a few specific syntax elements:
 
 - Comments: for some information not really needed for the presentation, but
-still useful to have. Comments are lines starting with `# ` (no leading space,
-and at least one space after the `#` sign).
+still useful to have. Comments are lines starting with `% ` (no leading space,
+and at least one space after the `%` sign).
+
 - Title: A title is a line surrounded with `# ` and ` #`:
 
     # this is a title #

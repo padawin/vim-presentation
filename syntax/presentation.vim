@@ -4,7 +4,7 @@
 " Author: Ghislain Rodrigues <git@ghislain-rodrigues.fr>
 " License: MIT
 
-syntax match PresComment '^# .*'
+syntax match PresComment '^% .*'
 syntax match PresSubTitleStart '^[ \t]*## '
 syntax match PresSubTitleEnd ' ##$'
 syntax match PresTitleStart '^[ \t]*# '
