@@ -60,3 +60,9 @@ names are written properly.
 Some new syntax elements could be created.
 
 The colorscheme should be changed to be a light one, not dark.
+
+## Example
+
+An example of presentation can be found there:
+
+https://github.com/padawin/vim-slides/tree/master/undotree
