@@ -5,12 +5,12 @@
 " License: MIT
 
 syntax match PresComment '^# .*'
-syntax match PresSubTitleStart '^[ \t]\+## '
+syntax match PresSubTitleStart '^[ \t]*## '
 syntax match PresSubTitleEnd ' ##$'
-syntax match PresTitleStart '^[ \t]\+# '
+syntax match PresTitleStart '^[ \t]*# '
 syntax match PresTitleEnd ' #$'
-syntax match PresTitle '^[ \t]\+# .\+ #$' contains=PresTitleStart,PresTitleEnd
-syntax match PresSubTitle '^[ \t]\+## .\+ ##$' contains=PresSubTitleStart,PresSubTitleEnd
+syntax match PresTitle '^[ \t]*# .\+ #$' contains=PresTitleStart,PresTitleEnd
+syntax match PresSubTitle '^[ \t]*## .\+ ##$' contains=PresSubTitleStart,PresSubTitleEnd
 syntax match PresPresFile '[^ ]\+\.pres'
 syntax match PresCode '`[^`]\+`'
 syntax match PresKeyPointStart '^\* '
