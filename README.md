@@ -18,22 +18,30 @@ and at least one space after the `%` sign).
 
 - Title: A title is a line surrounded with `# ` and ` #`:
 
+```
     # this is a title #
+```
 
 - Subtitle: A subtitle is a line surrounded with `## ` and ` ##`:
 
+```
     ## this is a subtitle ##
+```
 
 - Key point: a Key point starts with a leading `* `
 
+```
     * This is a key point
+```
 
 - Link to a `.pres` file: Just write a filename, if it ends with `.pres`, it
 will be automatically detected.
 
 - Code section (inline): A string surrounded with `` ` ``:
 
+```
     This line contains `some code`
+```
 
 ## Mappings
 
